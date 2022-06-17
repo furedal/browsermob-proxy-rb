@@ -16,12 +16,12 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "browsermob-proxy-rb"
 
   s.add_runtime_dependency "rest-client"
-  s.add_runtime_dependency "childprocess", "~> 0.5"
+  s.add_runtime_dependency "childprocess", "~> 4"
   s.add_runtime_dependency "multi_json", "~> 1.0"
   s.add_runtime_dependency "har"
 
   s.add_development_dependency "rspec", "~> 2.0"
-  s.add_development_dependency "selenium-webdriver", "~> 3.7"
+  s.add_development_dependency "selenium-webdriver", "~> 4"
   s.add_development_dependency "rake", "~> 0.9.2"
   s.add_development_dependency "rack", "~> 1.5"
   s.add_development_dependency "puma"
